@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <version value="qzone" loginurl="http://qzone.qq.com" />
+
+    <loading url="http://appimg.qq.com/happyfarm/module/loading2_v_3.swf" />
+
+    <!-- 模块列表 -->
+    <moduleList>
+        <module name="main" url="http://appimg.qq.com/happyfarm/module/main3_v_448.swf" statusText="加载主文件...">
+            <material url="http://appimg.qq.com/happyfarm/module/ui/main/farmui_full_v_62.swf" statusText="加载UI素材..." />
+            <material url="http://appimg.qq.com/happyfarm/module/ui/main/farmui2_v_97.swf" statusText="加载UI素材..." />
+            <material url="http://appimg.qq.com/happyfarm/module/ui/water_ui_v_5.swf" statusText="加载UI素材..." />
+            <material url="http://appimg.qq.com/happyfarm/module/ui/main/farmui3_v_24.swf" statusText="加载UI素材..." />
+            <material url="http://appimg.qq.com/happyfarm/ui/main/farmui4_v_59.swf" statusText="加载UI素材..." />
+            <material url="http://appimg.qq.com/happyfarm/ui/main/farmui5_v_57.swf" statusText="加载UI素材..." />
+            <material url="http://appimg.qq.com/happyfarm/module/main4_v_237.swf" statusText="加载主素材..." />
+        </module> 
+
+	<!-- 异步加载的模块 -->
+	<module name="Shop Module" url="http://appimg.qq.com/happyfarm/module/shop_v_44.swf" />
+    <module name="New Shop Module" url="http://appimg.qq.com/happyfarm/module/newShop_v_22.swf" />
+    <module name="Decorate Module" url="http://appimg.qq.com/happyfarm/module/decorate_v_24.swf" />
+	<module name="Warehouse Module" url="http://appimg.qq.com/happyfarm/module/warehouse_v_91.swf" />
+	<module name="Quick Shoot Module" url="http://appimg.qq.com/happyfarm/module/quickshoot_v_6.swf"/>
+	<module name="Cards Module" url="http://appimg.qq.com/happyfarm/module/cards_v_19.swf"/>
+    <module name="Reminder Module" url="http://appimg.qq.com/happyfarm/reminder_v_1.swf"/>
+    <module name="AskItem Module" url=""/>
+    <module name="MODULE_BULLETIN_BOARD" url="http://appimg.qq.com/happyfarm/module/BulletinBoardWrapper_v_3.swf"/>
+    <module name="TreeTaskModule" url="http://appimg.qq.com/happyfarm/treeTask_v_1.swf"/>
+    <module name="SignModule" url="http://appimg.qq.com/happyfarm/module/sign_v_11.swf"/>
+    <module name="friend_selector" url="http://appimg.qq.com/happyfarm/module/friendSelector_v_7.swf"/>
+    <module name="newVersionWelcome" url="http://appimg.qq.com/happyfarm/module/newVerWelcome_v_4.swf" /> 
+
+    </moduleList>
+
+</data>

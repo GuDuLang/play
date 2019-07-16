@@ -1,0 +1,286 @@
+  <?xml version="1.0" encoding="UTF-8"?>
+  <data>
+  
+ 
+  <!--活动框架-->
+  <actApiSwf>http://appimg.qq.com/happyfarm/module/ActSDKSwf_v_45.swf</actApiSwf>
+  <activityInfo url="http://appimg.qq.com/happyfarm/data/activity_info_v_41.xml"/>
+
+
+  
+  <!-- 每个plugin可能会有多个不同类型的挂载点amount，对于type=0来说，挂载背景上，需要进行深度排序，layer控制是背景还是前景，zIndex控制在同一layer中的先后顺序-->
+      <plugins type="json">
+          <![CDATA[
+          {"plugins":[
+  
+    
+      {"id":2, "proxy":"plugins.FairyPluginProxy", "url":"http://appimg.qq.com/happyfarm/module/plugin/FairyPlugin_v_40.swf","amount":[{"type":0,"zIndex":0,"layer":3,"x":140,"y":510},{"type":5,"tip":"请小仙","zIndex":1, "width":30,"height":30}],
+          "rewards":[
+      [{"type" : 7, "num" : 50, "tip" : "经验50"},
+      {"id" : 3, "type" : 24, "num" : 1, "tip" : "超级鱼食1袋"},
+      {"id" : 3, "type" : 3, "num" : 1, "tip" : "急速化肥1袋"},
+      {"type" : 909090, "num" : 1, "tip" : "普通狗粮1天"},
+      {"type" : 31, "tip" : "小仙女体验1天"}],
+      [{"id" : 32, "type" : 3, "num" : 2, "tip" : "急速有机肥2袋"},
+      {"id" : 2, "type" : 24, "num" : 1, "tip" : "高级鱼食1袋"},
+      {"id" : 7, "type" : 3, "num" : 1, "tip" : "飞速化肥1袋"},
+      {"type" : 909090, "num" : 1, "tip" : "普通狗粮1天"},
+      {"type" : 31, "tip" : "土地公体验1天"}],
+      [{"type" : 6, "num" : 100000, "tip" : "金币100000"},
+      {"id" : 3, "type" : 24, "num" : 1, "tip" : "超级鱼食1袋"},
+      {"id" : 3, "type" : 3, "num" : 1, "tip" : "急速化肥1袋"},
+      {"type" : 909090, "num" : 1, "tip" : "普通狗粮1天"},
+      {"type" : 31, "tip" : "财神爷体验1天"}],
+  [{"type" : 7, "num" : 50, "tip" : "经验50"},{"type" : 6, "num" : 100000, "tip" : "金币100000"},
+      {"id" : 32, "type" : 3, "num" : 1, "tip" : "急速有机肥1袋"},
+      {"type" : 909090, "num" : 1, "tip" : "普通狗粮1天"},
+      {"type" : 31, "tip" : "无奖励"}]
+      ],"fairy" :[{"id":92001,"name":"小仙女","url":"http://appimg.qq.com/happyfarm/module/plugin/f0.swf"},
+      {"id":92002,"name":"土地公公","url":"http://appimg.qq.com/happyfarm/module/plugin/f1.swf"},
+      {"id":92003,"name":"财神爷","url":"http://appimg.qq.com/happyfarm/module/plugin/f2.swf"},{"id":92004,"name":"仙皇","url":"http://appimg.qq.com/happyfarm/module/plugin/f3.swf"}]},
+  
+  {"id":4, "proxy":"plugins.MailPromotionProxy", "url":"http://appimg.qq.com/happyfarm/module/plugin/MailPromotionPlugin_v_6.swf","amount":[{"type":7}],"start":"6/6/2012 00:00:00","end":"8/26/2062 23:59:59"},
+  
+  {"id":6, "proxy":"plugins.InteractiveInformationPluginProxy", "url":"http://appimg.qq.com/happyfarm/module/plugin/InteractiveInformationPlugin_v_28.swf","amount":[{"type":8,"zIndex":3}],"start":"6/6/2012 00:00:00","end":"8/26/2112 23:59:59","strongGuide":"6/6/2012 00:00:00-8/26/2012 23:59:59","introConfig":[[150,"小清新"],
+  [{"asset_id": "", "crop_id": 2287, "crop_name": "金钱薄荷", "id": 1}, {"asset_id": "", "crop_id": 2288, "crop_name": "靖西海菜花", "id": 2}, {"asset_id": "", "crop_id": 2290, "crop_name": "莲花浮", "id": 3}, {"asset_id": "", "crop_id": 2286, "crop_name": "玉掌莲", "id": 4}, {"asset_id": "", "crop_id": 2292, "crop_name": "萍蓬草", "id": 5}, {"asset_id": "", "crop_id": 2291, "crop_name": "水生三叶草", "id": 6}]
+  ],"boomConfig":[148,"腾讯游戏III"]},
+  
+  {"id":7, "proxy":"plugins.NewInteractiveInformationPluginProxy", "url":"http://appimg.qq.com/happyfarm/module/plugin/NewInteractiveInformationPlugin_v_10.swf","amount":[{"type":10,"zIndex":6}],"start":"6/6/2012 00:00:00","end":"8/26/2112 23:59:59","strongGuide":"6/6/2012 00:00:00-8/26/2012 23:59:59","introConfig":[[150,"小清新"],
+  [{"asset_id": "", "crop_id": 2287, "crop_name": "金钱薄荷", "id": 1}, {"asset_id": "", "crop_id": 2288, "crop_name": "靖西海菜花", "id": 2}, {"asset_id": "", "crop_id": 2290, "crop_name": "莲花浮", "id": 3}, {"asset_id": "", "crop_id": 2286, "crop_name": "玉掌莲", "id": 4}, {"asset_id": "", "crop_id": 2292, "crop_name": "萍蓬草", "id": 5}, {"asset_id": "", "crop_id": 2291, "crop_name": "水生三叶草", "id": 6}]
+  ],"boomConfig":[148,"腾讯游戏III"]},
+  
+  
+  {"id":16, "proxy":"plugins.WeekPageProxy", "url":"http://appimg.qq.com/happyfarm/WeekPagePlugin_v_10.swf","amount":[{"type":7}],"start":"6/6/2012 00:00:00","end":"8/26/2062 23:59:59"}
+  
+      ]}
+      ]]>
+      </plugins>
+  
+  <!-- ===== PLEASE === DO === NOT === EDIT === CONTENT  ===  BELOW === MANUALLY ===== -->
+  
+  
+  <!--联合活动-->
+      <activity_list appId="353" type="xml">
+  
+  <activity id="collecting" standalone="1" enter_type="customize" gray="0" start_time="2012-7-31 00:00" expire_time="2050-1-1 00:00" src="http://appimg.qq.com/happyfarm/module/collect/CollectingMain_v_65.swf">
+  <asset id="customize_icon" src="http://appimg.qq.com/happyfarm/module/collect/collecting_icon_v_1.swf"/>
+  <asset id="serials" src="http://appimg.qq.com/happyfarm/module/collect/serials_v_18.swf"/>
+      <fromIcon>
+      <i id="1" desc="可通过送礼获得" serial="150"/>
+      <i id="2" desc="可通过炸弹宝箱获得" serial="148"/>
+      <i id="3" desc="可通过签到获得" serial="6"/>
+      <i id="4" desc="可通过翻地、金红黑土地收获获得" serial="131"/>
+      <i id="5" desc="玩iPhone或Android版农场摩天轮即有机会获得。即将绝版，快去集齐它们吧！" serial="149"/>
+      </fromIcon>
+  
+  <gift_module>
+    <item asset_url_def="http://appimg.qq.com/happyfarm/module/ui/farm/collect_ad/gift_module/def_gift_v_4.png" asset_url_img="http://appimg.qq.com/happyfarm/module/ui/farm/collect_ad/gift_module/gift_module_v_14.png" id="1" id_series="159" time_expired="2015-08-06 23:59:59" tip_mouse_over="罗米多
+美沬艾尔
+倪优
+石蕊米
+穗绒光
+怡蕊茗
+珍珠紫"/>
+</gift_module>
+
+  <bomb_module>
+    <item asset_url_def="http://appimg.qq.com/happyfarm/module/ui/farm/collect_ad/bomb_module/def_bomb_v_2.png" asset_url_img="http://appimg.qq.com/happyfarm/module/ui/farm/collect_ad/bomb_module/bomb_module_v_15.png" id="1" id_series="157" time_expired="2015-08-06 23:59:59" tip_mouse_over="金便便草
+冰爽之星
+糖果
+音乐爱丽丝
+大大光棍节
+花儿朵朵
+大运UU树"/>
+</bomb_module>
+
+  <random_module>
+    <item asset_url_def="http://appimg.qq.com/happyfarm/module/ui/farm/collect_ad/random_module/def_random_v_1.png" asset_url_img="http://appimg.qq.com/happyfarm/module/ui/farm/collect_ad/random_module/random_module_v_10.png" id="1" id_series="153" time_expired="2015-06-11 23:59:59" tip_mouse_over="金肖竹芋
+蓝眼菊
+紫衫玫瑰
+紫心菊
+八爪鱼兰
+白鹤兰
+蝙蝠草
+海马兜
+蜗牛藤"/>
+</random_module>
+
+  <signup_module>
+    <item asset_url_def="http://appimg.qq.com/happyfarm/module/ui/farm/collect_ad/signup_module/def_signup_v_1.png" asset_url_img="http://appimg.qq.com/happyfarm/module/ui/farm/collect_ad/signup_module/signup_module_v_17.png" id="1" id_series="-1" time_expired="2014-12-31 23:59:59" tip_mouse_over="铃铛树
+圣诞彩花
+绿柱红掌
+猫耳掌"/>
+</signup_module>
+
+  <qq_mall_module>
+    <item asset_url_def="http://appimg.qq.com/happyfarm/module/ui/farm/collect_ad/qq_mall_module/def_qq_mall_v_1.png" asset_url_img="http://appimg.qq.com/happyfarm/module/ui/farm/collect_ad/qq_mall_module/qq_mall_module_2_v_7.png" id="1" nav_url="http://rewards.qq.com/" time_expired="2014-12-18 23:59:59" tip_mouse_over="俄罗斯方块作物七
+西游盘丝草
+我买网美食果
+粉玫瑰
+王者之魂"/>
+</qq_mall_module>
+
+  <activity_internal_module>
+    <item asset_url_def="http://appimg.qq.com/happyfarm/module/ui/farm/collect_ad/activity_internal_module/def_activity_internal_v_1.png" asset_url_img="http://appimg.qq.com/happyfarm/module/ui/farm/collect_ad/activity_internal_module/activity_internal_module_1_v_5.png" id="1" name="farm_spring_activity" time_expired="2014-04-9 23:59:59" tip_mouse_over="百味可乐树
+辣椒波板糖
+太囧果
+小丑玫瑰
+眩晕果
+整蛊芥末
+小丑面条树"/>
+</activity_internal_module>
+
+  <activity_external_module>
+    <item asset_url_def="http://appimg.qq.com/happyfarm/module/ui/farm/collect_ad/activity_external_module/def_activity_external_v_1.png" asset_url_img="http://appimg.qq.com/happyfarm/module/ui/farm/collect_ad/activity_external_module/activity_external_module_1_v_1.png" id="1" name="none" time_expired="2013-08-02 11:55:13" tip_mouse_over="none"/>
+</activity_external_module>
+
+  <ad_ver>
+    <item id="1" ver_date="2013-08-15 17:45:06"/>
+</ad_ver>
+
+  
+  </activity>
+  
+  
+  <act_new>
+  
+  <!-- 模板活动 @start-->
+  <activity id="DouSignActModule" start_time="2017-01-01 00:00:00" expire_time="2019-02-15 23:59:59" mouseTip="签到好礼" src="http://appimg.qq.com/happyfarm/module/DouSignActModule_v_19.swf"> 
+      <double_farm_sign type="json">
+          <![CDATA[
+            {"gifts":[{"asset_id": "", "cvalue": 0, "id": 1, "item_appid": 353, "item_id": 5, "name": "爱心", "num": 5, "type": 110}, {"asset_id": "", "cvalue": 0, "id": 2, "item_appid": 353, "item_id": 2, "name": "高速化肥", "num": 2, "type": 3}, {"asset_id": "", "cvalue": 0, "id": 3, "item_appid": 353, "item_id": 2000, "name": "贝壳", "num": 800, "type": 90}, {"asset_id": "", "cvalue": 0, "id": 4, "item_appid": 353, "item_id": 274, "name": "红色营养液", "num": 8, "type": 37}, {"asset_id": "", "cvalue": 0, "id": 5, "item_appid": 353, "item_id": 276, "name": "白色营养液", "num": 8, "type": 37}, {"asset_id": "", "cvalue": 1, "id": 6, "item_appid": 353, "item_id": 3679, "name": "爱情雪宝", "num": 8, "type": 1}, {"asset_id": "", "cvalue": 0, "id": 7, "item_appid": 353, "item_id": 2000, "name": "贝壳", "num": 800, "type": 90}, {"asset_id": "", "cvalue": 0, "id": 8, "item_appid": 353, "item_id": 106, "name": "小勇气瓶", "num": 2, "type": 111}, {"asset_id": "", "cvalue": 0, "id": 9, "item_appid": 353, "item_id": 1, "name": "点券", "num": 800, "type": 39}, {"asset_id": "", "cvalue": 0, "id": 10, "item_appid": 353, "item_id": 36, "name": "高速点券化肥", "num": 2, "type": 3}, {"asset_id": "", "cvalue": 0, "id": 11, "item_appid": 353, "item_id": 276, "name": "白色营养液", "num": 10, "type": 37}, {"asset_id": "", "cvalue": 0, "id": 12, "item_appid": 353, "item_id": 274, "name": "红色营养液", "num": 8, "type": 37}, {"asset_id": "", "cvalue": 0, "id": 13, "item_appid": 353, "item_id": 275, "name": "黄色营养液", "num": 8, "type": 37}, {"asset_id": "", "cvalue": 0, "id": 14, "item_appid": 353, "item_id": 37, "name": "极速点券化肥", "num": 2, "type": 3}, {"asset_id": "", "cvalue": 0, "id": 15, "item_appid": 353, "item_id": 13, "name": "秒杀宝石", "num": 1, "type": 90}, {"asset_id": "", "cvalue": 0, "id": 16, "item_appid": 353, "item_id": 7, "name": "飞速化肥", "num": 2, "type": 3}, {"asset_id": "", "cvalue": 0, "id": 17, "item_appid": 353, "item_id": 10, "name": "中级洗练种子", "num": 3, "type": 97}, {"asset_id": "", "cvalue": 0, "id": 18, "item_appid": 353, "item_id": 276, "name": "白色营养液", "num": 8, "type": 37}, {"asset_id": "", "cvalue": 1, "id": 19, "item_appid": 353, "item_id": 6, "name": "炼金石", "num": 10, "type": 110}, {"asset_id": "", "cvalue": 1, "id": 20, "item_appid": 353, "item_id": 7, "name": "特级经验种子", "num": 5, "type": 97}, {"asset_id": "", "cvalue": 1, "id": 21, "item_appid": 353, "item_id": 3, "name": "红色招聘券", "num": 5, "type": 110}, {"asset_id": "", "cvalue": 1, "id": 22, "item_appid": 353, "item_id": 12, "name": "速度种子", "num": 10, "type": 97}, {"asset_id": "", "cvalue": 1, "id": 23, "item_appid": 353, "item_id": 1552, "name": "加速碎片", "num": 2, "type": 37}, {"asset_id": "", "cvalue": 1, "id": 24, "item_appid": 353, "item_id": 11, "name": "高级洗练种子", "num": 5, "type": 97}, {"asset_id": "", "cvalue": 0, "id": 25, "item_appid": 353, "item_id": 7, "name": "飞速化肥", "num": 2, "type": 3}, {"asset_id": "", "cvalue": 0, "id": 26, "item_appid": 353, "item_id": 2, "name": "高速化肥", "num": 2, "type": 3}, {"asset_id": "", "cvalue": 0, "id": 27, "item_appid": 353, "item_id": 1000, "name": "体力", "num": 30, "type": 90}, {"asset_id": "", "cvalue": 0, "id": 28, "item_appid": 353, "item_id": 853, "name": "挑战晶石", "num": 500, "type": 37}, {"asset_id": "", "cvalue": 0, "id": 29, "item_appid": 353, "item_id": 2, "name": "安全卡", "num": 3, "type": 110}, {"asset_id": "", "cvalue": 0, "id": 30, "item_appid": 0, "item_id": 0, "name": "0", "num": 0, "type": 0}, {"asset_id": "", "cvalue": 0, "id": 31, "item_appid": 0, "item_id": 0, "name": "0", "num": 0, "type": 0}, {"asset_id": "", "cvalue": 0, "id": 32, "item_appid": 353, "item_id": 276, "name": "白色营养液", "num": 30, "type": 37}, {"asset_id": "", "cvalue": 0, "id": 33, "item_appid": 353, "item_id": 4089, "name": "天真童儿", "num": 12, "type": 1}, {"asset_id": "", "cvalue": 0, "id": 34, "item_appid": 353, "item_id": 85, "name": "黄金手套", "num": 1, "type": 37}],"beginTime":"2019-01-18 00:00:00", "endTime":"2019-02-15 23:59:59","step_need":"8-19-22"}
+          ]]>
+      </double_farm_sign>
+  </activity>
+  <!-- 模板活动 @end-->
+  
+
+  <activity id="SundayHappyActModule_activity" start_time="2014-8-8 00:00" expire_time="2020-01-01 00:00" entrance_type="1"  mouseTip="农场欢乐季" src="http://appimg.qq.com/happyfarm/module/SundayHappyActModule_v_12.swf">
+  </activity>
+  
+  <activity id="VIPPlantWRankExActivity" start_time="2014-8-8 00:00" expire_time="2030-01-01 00:00" entrance_type="1"  mouseTip="花园魅力之星物品兑换" src="http://appimg.qq.com/happyfarm/module/activity/VIPPlantWRankExActivity_v_5.swf">
+  </activity>
+  
+  <activity id="FarmSwitchActivity" start_time="2014-06-19 09:00" expire_time="2034-10-27 23:59" src="http://appimg.qq.com/happyfarm/module/FarmSwitchActivity_v_5.swf">
+  </activity>
+  
+  <activity id="QBSlenderGiftActModule_activity" start_time="2014-08-15 00:00" expire_time="2026-08-20 23:59" entrance_type="2" giftvalue1="10" giftvalue2="25" giftvalue3="75" giftvalue4="200" giftvalue5="360" mouseTip="消费回馈" src="http://appimg.qq.com/happyfarm/module/QBSlenderGiftActModule_v_9.swf">
+  <blogURL>
+          http://user.qzone.qq.com/1006666001/blog/1408343136
+  </blogURL>
+  </activity>
+  
+  <activity id="CustomGiftActivity" start_time="2018-05-14 00:00:00" expire_time="2018-05-20 23:59:59" src="http://appimg.qq.com/happyfarm/module/CustomGiftActivity_v_5.swf" tips="惊喜礼包">
+  </activity>
+  
+  <activity id="CustomGiftTwoActivity" start_time="2015-12-01 00:00:00" 
+  expire_time="2015-12-03 23:59:59" src="http://appimg.qq.com/happyfarm/module/CustomGiftTwoActivity_v_2.swf" 
+  tips="月初礼包 " >
+  </activity>
+  
+  <activity id="GongZhongHaoActivity" start_time="2017-07-01 00:00" expire_time="2027-07-22 23:59" mouseTip="" src="http://appimg.qq.com/happyfarm/module/activity/GongZhongHaoActivity_v_2.swf"></activity>
+  
+  <activity id="VipExpireRemind" start_time="2015-9-22 00:00:00" expire_time="2036-3-7 23:59:59" mouseTip="" src="http://appimg.qq.com/happyfarm/module/activity/VipExpireRemind_v_1.swf"> </activity>
+  
+  <activity id="GzhAct_activity" start_time="2016-01-01 00:00:00" expire_time="2028-08-31 23:59:59" mouseTip="公众号好礼" src="http://appimg.qq.com/happyfarm/module/GzhAct_v_4.swf"> </activity>
+
+  <activity id="KeyExGift_activity" start_time="2017-01-26 00:00" expire_time="2020-01-01 00:00" mouseTip="好礼兑换" src="http://appimg.qq.com/happyfarm/module/activity/PCKeyExGiftActivity_v_7.swf"></activity>
+  <activity id="ZhanShenQiangHuaActivity" start_time="2017-01-26 00:00" expire_time="2017-06-29 23:59" mouseTip="" src="http://appimg.qq.com/happyfarm/module/activity/ZhanShenQiangHuaActivity_v_1.swf"></activity>
+  <activity id="RichmanAct_activity" start_time="2013-12-06 00:00" expire_time="2027-05-11 23:59" mouseTip="欢乐大富翁" src="http://appimg.qq.com/happyfarm/module/RichmanActModule_v_20.swf">
+      <url_blog>
+        http://user.qzone.qq.com/1006666001/blog/1399015362
+      </url_blog>
+  </activity>
+  
+  <activity id="ShiMingZhiActivity" start_time="2017-10-4 00:00" expire_time="2027-10-12 23:59" mouseTip="" src="http://appimg.qq.com/happyfarm/module/activity/ShiMingZhiActivity_v_2.swf"></activity>
+  <activity id="WeeklyShopActivity" start_time="2019-3-11 00:00:00" expire_time="2020-3-11 23:59:59" mouseTip="" src="http://appimg.qq.com/happyfarm/module/activity/WeeklyShopActivity_v_17.swf"> </activity>
+  <activity id="MoFaChiXingYunLiActivity" start_time="2019-05-02 00:00:00" expire_time="2019-08-01 23:59:59" mouseTip="荷花仙幸运礼" src="http://appimg.qq.com/happyfarm/module/activity/MoFaChiXingYunLiActivity_v_15.swf"></activity>
+
+<activity id="GanEnJie2017" start_time="2019-02-07 00:00:00" expire_time="2019-06-20 23:59:59" mouseTip="感恩父亲节" src="http://appimg.qq.com/happyfarm/module/activity/GanEnJie2017_v_4.swf"></activity>
+<activity id="QuanFuWuZhuangActivity" start_time="2019-02-07 00:00:00" expire_time="2019-07-03 23:59:59" mouseTip="全副武装" src="http://appimg.qq.com/happyfarm/module/activity/QuanFuWuZhuangActivity_v_2.swf"></activity>
+<activity id="QiangZheKouQuanAct" start_time="2019-02-07 00:00:00" expire_time="2019-06-18 23:59:59" mouseTip="抢打折券" src="http://appimg.qq.com/happyfarm/module/activity/QiangZheKouQuanAct_v_1.swf"></activity>
+<activity id="ShangChengAct" start_time="2019-02-07 00:00:00" expire_time="2019-06-20 23:59:59" mouseTip="618商城" src="http://appimg.qq.com/happyfarm/module/activity/ShangChengAct_v_1.swf"></activity>
+<activity id="QuanFuWuZhuangActivity2" start_time="2019-02-07 00:00:00" expire_time="2019-07-11 23:59:59" mouseTip="全副武装" src="http://appimg.qq.com/happyfarm/module/activity/QuanFuWuZhuangActivity2_v_4.swf"></activity>
+<activity id="ShuiGuoBingShaActivity" start_time="2019-02-07 00:00:00" expire_time="2019-06-27 23:59:59" mouseTip="水果冰沙" src="http://appimg.qq.com/happyfarm/module/activity/ShuiGuoBingShaActivity_v_5.swf"></activity>
+<activity id="BuChangActivity" start_time="2019-02-07 00:00:00" expire_time="2019-06-27 23:59:59" mouseTip="补偿礼包" src="http://appimg.qq.com/happyfarm/module/activity/BuChangActivity_v_7.swf"></activity>
+<activity id="ShenBingXianShiActivity" start_time="2019-02-07 00:00:00" expire_time="2019-06-27 23:59:59" mouseTip="神兵现世" src="http://appimg.qq.com/happyfarm/module/activity/ShenBingXianShiActivity_v_12.swf"></activity>
+<activity id="CangShuangYouYongActivity" start_time="2019-02-07 00:00:00" expire_time="2019-07-04 23:59:59" mouseTip="畅爽游泳" src="http://appimg.qq.com/happyfarm/module/activity/CangShuangYouYongActivity_v_6.swf"></activity>
+<activity id="VCoinBuyActivity" start_time="2019-02-07 00:00:00" expire_time="2019-07-04 23:59:59" mouseTip="V币礼包" src="http://appimg.qq.com/happyfarm/module/activity/VCoinBuyActivity_v_4.swf"></activity>
+<activity id="XiaRiShuiGuoJiActivity" start_time="2019-02-07 00:00:00" expire_time="2019-07-11 23:59:59" mouseTip="夏日水果" src="http://appimg.qq.com/happyfarm/module/activity/XiaRiShuiGuoJiActivity_v_15.swf"></activity>
+<activity id="ShouWeiShangChengActivity" start_time="2019-02-07 00:00:00" expire_time="2019-07-11 23:59:59" mouseTip="守卫商城" src="http://appimg.qq.com/happyfarm/module/activity/ShouWeiShangChengActivity_v_2.swf"></activity>
+<activity id="ChangErXianWu" start_time="2019-02-07 00:00:00" expire_time="2019-07-25 23:59:59" mouseTip="罗汉沙僧" src="http://appimg.qq.com/happyfarm/module/activity/ChangErXianWu_v_3.swf"></activity>
+<activity id="ZheKouActivity" start_time="2019-02-07 00:00:00" expire_time="2019-07-18 23:59:59" mouseTip="晶钻折扣礼" src="http://appimg.qq.com/happyfarm/module/activity/ZheKouActivity_v_18.swf"></activity>
+<activity id="vipGiftActivity" start_time="2019-02-07 00:00:00" expire_time="2019-07-18 23:59:59" mouseTip="VIP礼包" src="http://appimg.qq.com/happyfarm/module/activity/vipGiftActivity_v_16.swf"></activity>
+<activity id="LuckyopenfunAct" start_time="2019-02-07 00:00:00" expire_time="2019-07-18 23:59:59" mouseTip="幸运翻翻乐" src="http://appimg.qq.com/happyfarm/module/LuckyopenfunAct_v_8.swf"></activity>
+</act_new>
+  
+  <activity id="RatingsActivity" appid="353"  standalone="1" enter_type="customize"  mouse_tip="" start_time="2013-05-31 00:00" expire_time="2083-8-8 23:59" src="http://appimg.qq.com/happyfarm/module/RatingsContextNew_v_30.swf" resUrl ="http://appimg.qq.com/happyfarm/module/ui/ratings/ratingsRes_v_11.swf" blankTime="8/25/2013 00:00:00"/>
+  
+  
+  <activity id="TipsGiftsActivity" appid="353"  standalone="1" enter_type="icon"  mouse_tip="" start_time="2013-05-31 00:00" expire_time="2083-8-8 23:59" src="http://appimg.qq.com/happyfarm/module/TipsGiftsContext_v_2.swf" />
+  
+  <activity id="YellowGiftActivityHelper" standalone="1" appid="358" enter_type="icon" bitpos="" mouse_tip="黄钻每日礼包" start_time="2013-7-12 10:00" expire_time="2063-10-17 23:59"  src="http://appimg.qq.com/happyfarm/module/YellowGiftsContext_v_6.swf"/>
+  </activity_list>
+  
+   <!-- 自定义礼包 -->
+      <customGift type="json">
+          <![CDATA[
+          {"customGift": [
+              [{"asset_id": "58894", "id": 1, "name": "惊喜礼包", "orign_price": 100, "package": [{"app": 353, "item_id": 276, "num": 20, "price": 0, "type": 37}, {"app": 353, "item_id": 274, "num": 5, "price": 0, "type": 37}, {"app": 353, "item_id": 1, "num": 1000, "price": 0, "type": 39}, {"app": 353, "item_id": 1783, "num": 10, "price": 0, "type": 37}, {"app": 353, "item_id": 31, "num": 1, "price": 0, "type": 3}, {"app": 353, "item_id": 37, "num": 1, "price": 0, "type": 3}], "rule": 1, "sale_price": 20}, {"asset_id": "", "id": 2, "name": "加速礼包", "orign_price": 268, "package": [{"app": 353, "item_id": 276, "num": 50, "price": 0, "type": 37}, {"app": 353, "item_id": 274, "num": 10, "price": 0, "type": 37}, {"app": 353, "item_id": 1, "num": 5000, "price": 0, "type": 39}, {"app": 353, "item_id": 1783, "num": 20, "price": 0, "type": 37}, {"app": 353, "item_id": 32, "num": 2, "price": 0, "type": 3}, {"app": 353, "item_id": 37, "num": 2, "price": 0, "type": 3}], "rule": 1, "sale_price": 100}, {"asset_id": "", "id": 3, "name": "极速礼包", "orign_price": 687, "package": [{"app": 353, "item_id": 276, "num": 99, "price": 0, "type": 37}, {"app": 353, "item_id": 274, "num": 59, "price": 0, "type": 37}, {"app": 353, "item_id": 1, "num": 9999, "price": 0, "type": 39}, {"app": 353, "item_id": 1783, "num": 30, "price": 0, "type": 37}, {"app": 353, "item_id": 33, "num": 5, "price": 0, "type": 3}, {"app": 353, "item_id": 32, "num": 5, "price": 0, "type": 3}], "rule": 1, "sale_price": 300}, {"asset_id": "53815", "id": 4, "name": "小礼包", "orign_price": 110, "package": [{"app": 353, "item_id": 276, "num": 10, "price": 0, "type": 37}, {"app": 353, "item_id": 286, "num": 3, "price": 0, "type": 37}, {"app": 353, "item_id": 289, "num": 3, "price": 0, "type": 37}, {"app": 353, "item_id": 274, "num": 20, "price": 0, "type": 37}, {"app": 353, "item_id": 318, "num": 20, "price": 0, "type": 37}, {"app": 353, "item_id": 245, "num": 5, "price": 0, "type": 37}], "rule": 1, "sale_price": 30}, {"asset_id": "", "id": 5, "name": "大礼包", "orign_price": 410, "package": [{"app": 353, "item_id": 276, "num": 30, "price": 0, "type": 37}, {"app": 353, "item_id": 287, "num": 3, "price": 0, "type": 37}, {"app": 353, "item_id": 290, "num": 3, "price": 0, "type": 37}, {"app": 353, "item_id": 274, "num": 60, "price": 0, "type": 37}, {"app": 353, "item_id": 318, "num": 60, "price": 0, "type": 37}, {"app": 353, "item_id": 246, "num": 5, "price": 0, "type": 37}], "rule": 1, "sale_price": 200}, {"asset_id": "", "id": 6, "name": "豪华礼包", "orign_price": 720, "package": [{"app": 353, "item_id": 276, "num": 50, "price": 0, "type": 37}, {"app": 353, "item_id": 288, "num": 3, "price": 0, "type": 37}, {"app": 353, "item_id": 291, "num": 3, "price": 0, "type": 37}, {"app": 353, "item_id": 153, "num": 2, "price": 0, "type": 37}, {"app": 353, "item_id": 274, "num": 100, "price": 0, "type": 37}, {"app": 353, "item_id": 247, "num": 3, "price": 0, "type": 37}], "rule": 1, "sale_price": 350}]
+          ]
+          }
+          
+          ]]>
+      </customGift>
+      
+      <!-- 节日礼包 -->
+      <jieRiLiBao type="json">
+          <![CDATA[
+          {"jieRiLiBao": [
+              [{"asset_id": "", "begin": "2018-10-01 00:00:00", "end": "2018-10-01 23:59:59", "gift": [{"itemappid": 353, "itemid": 0, "name": "金币", "num": 19999, "type": 6}, {"itemappid": 353, "itemid": 1, "name": "点券", "num": 999, "type": 39}, {"itemappid": 353, "itemid": 1963, "name": "变叶木", "num": 5, "type": 1}, {"itemappid": 353, "itemid": 31, "name": "高速有机化肥", "num": 2, "type": 3}], "id": 1, "name": "国庆节"}, {"asset_id": "", "begin": "2018-10-17 00:00:00", "end": "2018-10-17 23:59:59", "gift": [{"itemappid": 353, "itemid": 0, "name": "金币", "num": 8888, "type": 6}, {"itemappid": 353, "itemid": 1, "name": "点券", "num": 666, "type": 39}, {"itemappid": 353, "itemid": 276, "name": "白色营养液", "num": 5, "type": 37}, {"itemappid": 353, "itemid": 245, "name": "铜福袋", "num": 3, "type": 37}], "id": 2, "name": "重阳节"}, {"asset_id": "", "begin": "2018-08-01 00:00:00", "end": "2018-08-01 23:59:59", "gift": [{"itemappid": 353, "itemid": 0, "name": "金币", "num": 8888, "type": 6}, {"itemappid": 353, "itemid": 1, "name": "点券", "num": 1314, "type": 39}, {"itemappid": 353, "itemid": 3, "name": "极速化肥", "num": 3, "type": 3}, {"itemappid": 353, "itemid": 245, "name": "铜福袋", "num": 5, "type": 37}], "id": 3, "name": "建军节"}, {"asset_id": "", "begin": "2018-08-17 00:00:00", "end": "2018-08-17 23:59:59", "gift": [{"itemappid": 353, "itemid": 0, "name": "金币", "num": 180216, "type": 6}, {"itemappid": 353, "itemid": 1, "name": "点券", "num": 2018, "type": 39}, {"itemappid": 353, "itemid": 2, "name": "高速化肥", "num": 5, "type": 3}, {"itemappid": 353, "itemid": 1963, "name": "变叶木", "num": 5, "type": 1}], "id": 4, "name": "七夕节"}, {"asset_id": "", "begin": "2018-08-25 00:00:00", "end": "2018-08-25 23:59:59", "gift": [{"itemappid": 353, "itemid": 0, "name": "金币", "num": 20188, "type": 6}, {"itemappid": 353, "itemid": 1, "name": "点券", "num": 2018, "type": 39}, {"itemappid": 353, "itemid": 32, "name": "极速有机化肥", "num": 3, "type": 3}, {"itemappid": 353, "itemid": 3, "name": "极速化肥", "num": 3, "type": 3}], "id": 5, "name": "中元节"}, {"asset_id": "", "begin": "2018-09-10 00:00:00", "end": "2018-09-10 23:59:59", "gift": [{"itemappid": 353, "itemid": 0, "name": "金币", "num": 20188, "type": 6}, {"itemappid": 353, "itemid": 1, "name": "点券", "num": 2018, "type": 39}, {"itemappid": 353, "itemid": 32, "name": "极速有机化肥", "num": 3, "type": 3}, {"itemappid": 353, "itemid": 3, "name": "极速化肥", "num": 3, "type": 3}], "id": 6, "name": "教师节"}, {"asset_id": "", "begin": "2018-09-24 00:00:00", "end": "2018-09-24 23:59:59", "gift": [{"itemappid": 353, "itemid": 2, "name": "高速化肥", "num": 5, "type": 3}, {"itemappid": 353, "itemid": 0, "name": "金币", "num": 16666, "type": 6}, {"itemappid": 353, "itemid": 1, "name": "点券", "num": 2018, "type": 39}, {"itemappid": 353, "itemid": 3, "name": "极速化肥", "num": 3, "type": 3}], "id": 7, "name": "中秋节"}]
+          ]
+          }
+          ]]>
+      </jieRiLiBao>
+  
+      <!-- 可编辑提示语 -->
+      <dynamicTips>
+          <shopLinkTip value="拍拍60元礼包派送！" url="http://game.paipai.com/promote/2011/index_30.shtml?PTAG=32122.1.1"/>
+          <shopVipTip value="尊贵的年费黄钻用户，快免费购买普通化肥浇作物吧！"/>
+          <shopUnvipTip value="年费黄钻点燃夏日激情，商店普通化肥免费买！"/>
+  <shopVipDIYTip value="稀有装扮限时购买，截至购买时间：2012年04月28日15点"/>
+  <!--        <shopLinkTip value="可编辑的商店广告位" url="http://game.paipai.com/promote/2011/index_30.shtml?PTAG=32122.1.1"/>
+          <shopVipTip value="可编辑的商店黄钻VIP广告" />
+          <shopUnvipTip value="可编辑的商店普通用户提示" />
+  -->
+      </dynamicTips>
+  
+      <advertisement type="json">
+          <![CDATA[
+          {"advertisement": [
+          
+  {"id":"jingdong"   , "enter_type":"icon" , "autoPopTime":"8/3/2012-18/11/2015 23:59:59"  , "bitpos":"29" , "mouse_tip":"京东优惠券大赠送" , "bubble_tip" : ""  ,   "start_time" : "2012-8-27 00:00:00" ,
+          "expire_time" : "2016-03-09 23:59:59"   ,
+          "npc_src" : ""  ,
+          "icon_src"  : "http://appimg.qq.com/happyfarm/module/jingdongIcon_v_1.swf" ,
+          "delay_show":2000,
+          "npcPos":[]  ,
+          "grayScale":false,
+          "grayScaleParam":"QQAlarmClock111",
+          "whiteList":false,
+          "whiteListParam":"11",
+          "qzoneLink" : " http://nmc.qq.com/cp/a20160219qqnc/indexul.htm",
+          "pyLink" : " http://nmc.qq.com/cp/a20160219qqnc/indexul.htm"  ,
+          "wbLink" : " http://nmc.qq.com/cp/a20160219qqnc/indexul.htm"   ,
+          "windowW": 900  , "windowH":540,
+         "clickIconReport":"ad.jingdong2015.icon_click",
+          "callBack":{
+                  "reloadBag":[  ["events.CommonEvent","CropsReload",null]  , ["events.CommonEvent","BagReload",null]  ]
+                }
+                }
+  
+          ]}
+          ]]>
+      </advertisement>
+      
+  </data>

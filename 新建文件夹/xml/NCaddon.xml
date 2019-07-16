@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <!-- Flash Vars 杂项配置放这里 -->
+    <vars>
+      <sellCouponFlg>"1"</sellCouponFlg>
+      <app_key>happyfarm</app_key>
+      <diyLimitYDLevel>4</diyLimitYDLevel>
+      <domian_qz>farm.qzone</domian_qz>
+      <domian_xy>farm.xiaoyou</domian_xy> 
+      <friend_list_mod_qz>1000</friend_list_mod_qz>
+      <friend_list_mod_xy>1000</friend_list_mod_xy>
+      <friend_list_tips>系统繁忙，请稍后再试！</friend_list_tips>
+      <steal_mod>1000</steal_mod>
+<fishGuideUrl>http://appimg.qq.com/happyfarm/module/fishGuideRes_v_7.swf</fishGuideUrl>
+<!--活动需要的API-->
+
+      <filterUrl>http://blog.qq.com/qzone/1006666002/1300264199.htm</filterUrl>
+      <friendUrl>http://id.qq.com/friends/index.html#myfriends-2-1</friendUrl>
+      <steal_tips>为保证更加稳定的服务，系统正在对部分号码进行数据维护。在此时间段系统将暂停您的 “摘取”操作以保护您的数据安全。期间好友也不能摘取您的作物，其他操作正常！谢谢您的支持！</steal_tips>
+      <enter_into_mod>1000</enter_into_mod>
+      <redirect_url_qz>http://imgcache.qq.com/qzone/v5/app/errorback/error_canvas.html#appid=353</redirect_url_qz>
+      <steal_tips_other>为保证更加稳定的服务，系统正在对部分号码进行数据维护。在此号段的农场在维护期间将停止摘取以保护数据安全。期间好友也不能摘取您的作物，其他操作正常！谢谢您的支持！</steal_tips_other>
+      <trdTimeGq>2010-9-26 14:00:00</trdTimeGq>
+      <redirect_url_xy>http://app.xiaoyou.qq.com/appframe_error.html?key=happyfarm</redirect_url_xy>
+      <ShopHeadLink>充50元话费就送50元农场大礼包，多充多送！|http://www.paipai.com/promote/2010/09/nongchang/index.html?PTAG=31395.4.2</ShopHeadLink>
+      <usercheck>7ae3d8bfd84b1cf2226c28671b093ad9</usercheck>
+      <config_url_qz>http://farm.qzone.qq.com/cgi-bin/cgi_farm_ini_run_v2?v=8</config_url_qz>
+      <config_url_xy>http://farm.xiaoyou.qq.com/cgi-bin/cgi_farm_ini_run_v2?v=8</config_url_xy>
+      <healthModeTime>00:00 - 06:00</healthModeTime>
+      <snowslide>10</snowslide>
+      <uinMode>1</uinMode>
+      <reqYellowlevel>2</reqYellowlevel>
+      <flowerDayTips>内测期间开放给黄钻以及农场15级以上（含15级）用户，每天每人可赠送一束鲜花哦！</flowerDayTips>
+
+      <flowerYDLevel>1</flowerYDLevel>
+      <cacheSeed>65</cacheSeed>
+      <batchStealHour>6-10,12-13,19-22</batchStealHour>
+
+      <buyToolTips>最近化肥使用量激增导致供应紧张，目前暂不能购买。</buyToolTips>
+      <mill>http://appbasesh.qzone.qq.com/cgi-bin/index/appbase_run_unity.cgi?appid=376%26max=0|http://appbasesh.qzone.qq.com/cgi-bin/index/appbase_run_unity.cgi?appid=376%26max=1|http://appbasesh.xiaoyou.qq.com/cgi-bin/index/appbase_run_unity.cgi?appid=376</mill>
+      <buyToolHour>0-24</buyToolHour>
+      <millLimitYDLevel>1</millLimitYDLevel>
+      <noFoodTips>最近狗粮原材料供应紧张，目前暂不能购买。</noFoodTips>
+      <buyTin>1</buyTin>
+      <adSeedTabOpen>1</adSeedTabOpen>
+
+          <WarehouseEmpty>材料仓库空空的，赶紧去好友的农场寻找、驱赶野生动物获得水晶吧！</WarehouseEmpty>
+      <missionBeginTime>2012-02-08 00:00:00</missionBeginTime>
+      <missionEndTime>2012-02-24 00:00:00</missionEndTime>
+
+      <snsAdAllowLvl>0</snsAdAllowLvl>
+      <showShopMillTab>0</showShopMillTab>
+      <everyDayGiftTip><![CDATA[您的黄钻还有<font color = '#FF0000'><b>&nbsp;{expireDays}&nbsp;</b></font>天到期。我们温馨提醒您及时<br>黄钻贵族每月可领取最高<font color = '#FF0000'><b>&nbsp;420&nbsp;</b></font>Q币农牧场礼包。]]></everyDayGiftTip>
+      <vipRenewal><![CDATA[http://pay.qq.com/qzone/index.shtml?ch=self&aid= farm.gifts]]></vipRenewal>
+      <pickupGiftFunny><![CDATA[恭喜您，翻地时挖到<font color="#339933"><b>&nbsp;@num&nbsp;</b></font>颗@name种子，可以在农场里组合各种图案。后续还将推出数字、字母等趣味景观树，敬请期待！<a href="event:http://blog.qq.com/qzone/1006666001/1292920220.htm"><u><font color="#26BBE9">查看样例</font></u></a>]]></pickupGiftFunny>
+      <vipReturn><![CDATA[http://pay.qq.com/qzone/index.shtml?ch=self&aid=farm.backhzf&paytime=year]]></vipReturn>
+      <newScroungeCGI>9999</newScroungeCGI>
+      <vipSeedLink><![CDATA[http://pay.qq.com/qzone/index.shtml?aid=farm.zzop]]></vipSeedLink>
+
+      <CardsGameOpenVip><![CDATA[http://pay.qq.com/qzone/index.shtml?cm=mobile&aid=farm.qdkt]]></CardsGameOpenVip>
+<CardsGameRenewalVip><![CDATA[http://pay.qq.com/qzone/index.shtml?aid=farm.qdxf]]></CardsGameRenewalVip>
+<CardsGameAllowLvl>0</CardsGameAllowLvl>
+      <ForceOpenPostWindowStr>为了保证奖品顺利邮寄</ForceOpenPostWindowStr>
+          <zhaohuiOpen>1</zhaohuiOpen>
+          <userActionOpenUin>1720,1720</userActionOpenUin>
+
+          <QQSuperMarketVip>0</QQSuperMarketVip>
+      <QQSuperMarketLvl>35</QQSuperMarketLvl>
+<!--是否需要给应用中心发份数据-->
+    <sendRequest>1</sendRequest>
+        <healthStart>10/12/2011 00:00:00</healthStart>
+    <healthEnd>10/20/2011 00:00:00</healthEnd>
+
+<!--签到回馈时间-->
+    <cardActivityStart>3/13/2012 00:00:00</cardActivityStart>
+    <cardActivityEnd>4/16/2012 00:00:00</cardActivityEnd>
+<!--签到弹tip的时间到-->
+    <cardActivityTipEnd>4/22/2012 00:00:00</cardActivityTipEnd>
+
+<!-- 野外场景手工更新这里 -->
+<beastLoaderUrl>http://appimg.qq.com/happyfarm/module/WildShellNc_v_6.swf</beastLoaderUrl>
+<wildXML><![CDATA[http://appimg.qq.com/mc/data/wild_v_39.xml]]></wildXML>
+
+      <NcDrop9><![CDATA[http://appimg.qq.com/happyfarm/module/ui/wild/NcDrop9_v_1.swf]]></NcDrop9>
+      <drop9><![CDATA[http://appimg.qq.com/mc/module/mc/farm/wild/drop9.swf]]></drop9>
+      <wildanimal><![CDATA[http://appimg.qq.com/mc/module/mc/farm/wild/]]></wildanimal>
+      <wildaction><![CDATA[http://appimg.qq.com/mc/module/mc/farm/wild/action.swf]]></wildaction>
+      <wildaweapon><![CDATA[http://appimg.qq.com/mc/module/mc/farm/wild/]]></wildaweapon>
+
+          <wildOpenlv>0</wildOpenlv>
+      <wildOpenexp>0</wildOpenexp>
+      <wildOpenCtrl>true</wildOpenCtrl>
+
+          <cropUrl><![CDATA[http://appimg1.qq.com/happyfarm/module/ui/allcrops/]]></cropUrl>
+      <publicCropPrefix><![CDATA[Crop_1_]]></publicCropPrefix>
+
+      <fishNPC>http://qzs.qq.com/qzone/vas/static/2011/20110867.html</fishNPC>
+      <fishTutorial>http://appimg.qq.com/happyfarm/module/ui/fish_tutorial.jpg</fishTutorial>
+
+          <sandbox>0</sandbox>
+
+          <pgvClickEnable>1</pgvClickEnable> <!-- 点击流上报控制 -->
+
+    <fairy>4</fairy> <!-- 小仙灰度 0-关闭 1-VIP7 2-VIP 3-VIP5 4-ALL -->
+
+<exclude_seeds>256,261,395,459,370,263,377,259,381,184,193,375,536,545,793,796,539,543,794,795,542,538,798,797,862,857,863,858,866,861,864,859,865,871,884,883</exclude_seeds>
+
+<supermarketTip><![CDATA[2012-5-17 23:59:59]]></supermarketTip>
+<freeGiftAutopop>1/11/2013-1/27/2062 23:59:59-15</freeGiftAutopop><!--免费礼物的强弹-->
+<jinPaiLand>7/10/2012-11/12/2012 23:59:59</jinPaiLand>
+<fishNewPop>9/11/2012-9/21/2012 23:59:59</fishNewPop><!--鱼苗去除解锁限制的强弹-->
+<gaussEffect>1</gaussEffect><!--工具栏特效对黄钻开放-->
+</vars>
+
+
+<AdCfg>
+    <ad asset_url_pic="http://appimg.qq.com/happyfarm/module/ui/ad/zhuanzhuanletujianguanggao_v_3.png" id="1" jump="" name="鱼塘图鉴广告" windows="0"/>
+</AdCfg>
+		
+		
+<poolHandbook>
+    <handBook asset_url_fpb_pic="http://appimg.qq.com/happyfarm/module/ui/farm/fishPool/book/fpb_1_v_4.png" id="1" name="古老沉船" series="1"/>
+    <handBook asset_url_fpb_pic="http://appimg.qq.com/happyfarm/module/ui/farm/fishPool/book/fpb_2_v_4.png" id="2" name="幻藻海域" series="1"/>
+    <handBook asset_url_fpb_pic="http://appimg.qq.com/happyfarm/module/ui/farm/fishPool/book/fpb_3_v_4.png" id="3" name="幽径迷踪" series="1"/>
+    <handBook asset_url_fpb_pic="http://appimg.qq.com/happyfarm/module/ui/farm/fishPool/book/fpb_4_v_4.png" id="4" name="宝石暗礁" series="1"/>
+    <handBook asset_url_fpb_pic="http://appimg.qq.com/happyfarm/module/ui/farm/fishPool/book/fpb_5_v_4.png" id="5" name="失落文明" series="1"/>
+    <handBook asset_url_fpb_pic="http://appimg.qq.com/happyfarm/module/ui/farm/fishPool/book/fpb_6_v_4.png" id="6" name="深海迷城" series="1"/>
+    <handBook asset_url_fpb_pic="http://appimg.qq.com/happyfarm/module/ui/farm/fishPool/book/fpb_7_v_3.png" id="7" name="星座系列" series="2"/>
+    <handBook asset_url_fpb_pic="http://appimg.qq.com/happyfarm/module/ui/farm/fishPool/book/fpb_8_v_1.png" id="8" name="十二生肖" series="2"/>
+</poolHandbook>
+
+
+<!--月末促销-->
+    <monthEnds>
+        <monthEnd id="0" name="monthend" month="马上有礼 年末来袭" url="http://appimg.qq.com/happyfarm/module/ui/monthEnd_v_13.swf" shareImg="http://appimg.qq.com/happyfarm/module/ui/icons/monthEndShareNew.png" start="7/20/2012 00:00:00" end="12/31/2015 23:59:59" blog="http://user.qzone.qq.com/1006666001/blog/1451026563" serialId="35" serialName="浪漫樱花"/>
+    </monthEnds>
+
+
+
+    <cardsGameRewards>
+      <!--老奖池-->
+      <cardsGameReward id = "1" bid = "1" cId="40" type="1" name="牧草果实" num="50" store="农场仓库" per="个" old="1"/>
+      <cardsGameReward id = "2" bid = "2" cId="40" type="1" name="牧草果实" num="200" store="农场仓库" per="个" old="1"/>
+      <cardsGameReward id = "3" bid = "3" cId="1" type="6" name="金币" num="100" store="金币帐户" per="个" old="1"/>
+      <cardsGameReward id = "4" bid = "4" cId="1" type="6" name="金币" num="300" store="金币帐户" per="个" old="1"/>
+      <cardsGameReward id = "9" bid = "9" cId="5" type="9" name="红水晶" num="1" store="农场仓库-材料" per="个" old="1"/>
+      <cardsGameReward id = "12" bid = "12" cId="2" type="9" name="绿水晶" num="1" store="农场仓库-材料" per="个" old="1"/>
+      <cardsGameReward id = "10" bid = "10" cId="8" type="9" name="橙水晶" num="1" store="农场仓库-材料" per="个" old="1"/>
+      <cardsGameReward id = "15" bid = "15" cId="174" type="1" name="晚香玉种子" num="1" store="农场物品包" per="个" old="1"/>
+      <cardsGameReward id = "16" bid = "16" cId="139" type="1" name="糖槭树花种子" num="1" store="农场物品包" per="个" old="1"/>
+      <cardsGameReward id = "17" bid = "17" cId="166" type="1" name="七彩果种子" num="1" store="农场物品包" per="个" old="1"/>
+      <cardsGameReward id = "22" bid = "22" cId="1" type="3" name="普通化肥" num="1" store="农场物品包" per="袋" old="1"/>
+      <cardsGameReward id = "23" bid = "23" cId="2" type="3" name="高速化肥" num="1" store="农场物品包" per="袋" old="1"/>
+      <cardsGameReward id = "24" bid = "24" cId="3" type="3" name="急速化肥" num="1" store="农场物品包" per="袋" old="1"/>
+      <cardsGameReward id = "51" bid = "51" cId="200" type="1" name="蓝田玉" num="1" store="农场物品包" per="个" old="1"/>
+      <cardsGameReward id = "52" bid = "52" cId="702" type="1" name="扶桑神树" num="1" store="农场物品包" per="个" old="1"/>
+      <cardsGameReward id = "53" bid = "53" cId="704" type="1" name="天女花" num="1" store="农场物品包" per="个" old="1"/>
+      <cardsGameReward id = "54" bid = "54" cId="710" type="1" name="富贵有鱼" num="1" store="农场物品包" per="个" old="1"/>
+      <cardsGameReward id = "55" bid = "55" cId="709" type="1" name="福袋树" num="1" store="农场物品包" per="个" old="1"/>
+      <!--新奖池-->
+      <cardsGameReward id = "56" bid = "56" cId="101" type="1" name="薰衣草" num="1" store="农场物品包" per="个"/>
+      <cardsGameReward id = "57" bid = "57" cId="109" type="1" name="蝴蝶兰" num="1" store="农场物品包" per="个"/>
+      <cardsGameReward id = "58" bid = "58" cId="119" type="1" name="紫罗兰" num="1" store="农场物品包" per="个"/>
+      <cardsGameReward id = "59" bid = "59" cId="129" type="1" name="勿忘我" num="1" store="农场物品包" per="个"/>
+      <cardsGameReward id = "60" bid = "60" cId="141" type="1" name="花香根鸢尾" num="1" store="农场物品包" per="个"/>
+      <cardsGameReward id = "61" bid = "61" cId="200" type="1" name="蓝田玉" num="1" store="农场物品包" per="个"/>
+      <cardsGameReward id = "62" bid = "62" cId="379" type="1" name="雀翠花" num="1" store="农场物品包" per="个"/>
+      <cardsGameReward id = "63" bid = "63" cId="448" type="1" name="天娇" num="1" store="农场物品包" per="个"/>
+      <cardsGameReward id = "64" bid = "64" cId="147" type="1" name="牵牛花" num="1" store="农场物品包" per="个" reward="1"/>
+      <cardsGameReward id = "65" bid = "65" cId="219" type="1" name="路易十四" num="1" store="农场物品包" per="个" reward="2"/>
+      <cardsGameReward id = "66" bid = "66" cId="458" type="1" name="海芋" num="1" store="农场物品包" per="个" reward="3"/>
+      <cardsGameReward id = "67" bid = "67" cId="256" type="1" name="石竹花" num="1" store="农场物品包" per="个" reward="3"/>
+      <cardsGameReward id = "68" bid = "68" cId="234" type="1" name="食人花" num="1" store="农场物品包" per="个" reward="3"/>
+      <cardsGameReward id = "69" bid = "69" cId="1" type="6" name="金币" num="300" store="金币帐户" per="个"/>
+      <cardsGameReward id = "70" bid = "70" cId="1" type="7" name="经验" num="30" store="经验帐户" per="个"/>
+      <cardsGameReward id = "72" bid = "72" cId="2" type="3" name="高速化肥" num="1" store="农场物品包" per="袋"/>
+      <cardsGameReward id = "71" bid = "71" cId="3" type="3" name="急速化肥" num="1" store="农场物品包" per="袋"/>
+      <collection collectionID = "3" collectionName = "情迷紫" v = "1"/>
+    </cardsGameRewards>
+
+    <!-- http请求地址及其他杂项环境配置 -->
+    <environment>
+<shader1 url="http://appimg.qq.com/happyfarm/module/shaders/shader1.pbj"/>
+<shader2 url="http://appimg.qq.com/happyfarm/module/shaders/shader2.pbj"/>
+    </environment>
+
+    <!-- 次要异步下载资源 -->
+    <secondList type="json"><![CDATA[
+    {"secondList" : [
+{"id":"goldenLandShare", "src":"http://appimg.qq.com/happyfarm/module/ui/goldenLandShare_v_1.swf"},
+{"id":"levelUpUI", "src":"http://appimg.qq.com/happyfarm/module/levelUp/levelUpUI_v_3.swf"},
+{"id":"feedsNPC", "src":"http://appimg.qq.com/happyfarm/module/NPC/feedsNPC/feedsNPC_v_0.swf"},
+{"id":"pengyouHead", "src":"http://appimg.qq.com/happyfarm/module/NPC/feedsNPC/pengyouHead.jpg"},
+
+{"id":"Fertilizer", "src":"http://appimg1.qq.com/happyfarm/module/ui/tools/Fertilizer_v_14.swf", "className":"Fertilizer"},
+
+{"id":"keyRes", "src":"http://appimg.qq.com/happyfarm/module/ui/keyRes_v_3.swf", "className":"keyRes"},
+
+{"id":"vipReturnButton", "src":"http://appimg.qq.com/happyfarm/module/ui/buttons/vipReturnButton.png"},
+
+{"id":"VipSeedTabBg", "src":"http://appimg.qq.com/happyfarm/module/ui/vipseeds/VipSeedTabBg.jpg"},
+
+{"id":"VipSeedBuyBg", "src":"http://appimg.qq.com/happyfarm/module/ui/vipseeds/VipSeedBuyBg.jpg"},
+
+{"id":"VipSeedButtonVip", "src":"http://appimg.qq.com/happyfarm/module/ui/vipseeds/VipSeedButtonVip.png"},
+
+{"id":"VipSeedButtonNonVip", "src":"http://appimg.qq.com/happyfarm/module/ui/vipseeds/VipSeedButtonNonVip.png"},
+
+{"id":"water", "src":"http://appimg.qq.com/happyfarm/module/ui/water_v_5.swf"},
+
+{"id":"landExtPic", "src":"http://appimg.qq.com/happyfarm/module/ui/landExtPic.jpg"},
+
+{"id":"fishNPC", "src":"http://appimg.qq.com/happyfarm/module/ui/fishNPC1.swf"},
+{"id":"recall", "src":"http://appimg.qq.com/happyfarm/module/ui/recall_v_3.swf"},
+{"id":"freegift", "src":"http://appimg.qq.com/happyfarm/module/ui/freegift_v_7.swf"},{"id":"plane", "src":"http://appimg.qq.com/happyfarm/module/ui/plane_v_0.swf"},
+
+{"id":"CardsGameWindow", "src":"http://appimg.qq.com/happyfarm/module/ui/cardgames/CardsGameWindow_v_9.swf"},
+{"id":"CardsGameActivityWindow", "src":"http://appimg.qq.com/happyfarm/module/ui/cardgames/CardsGameWindowActivity_v_0.swf"},
+
+{"id":"QQSecurity", "src":"http://appimg.qq.com/happyfarm/module/ui/gj_icon_v_0.swf"},
+{"id":"QQAlarmClock", "src":"http://appimg.qq.com/happyfarm/module/ui/nz_icon_v_1.swf"},
+{"id":"cardsExpireNotice", "src":"http://appimg.qq.com/happyfarm/module/cardsExpireNotice_v_2.swf"},
+{"id":"RequestErrorBG", "src":"http://appimg.qq.com/happyfarm/module/ui/main/RequestError_2.swf", "className":"RequestErrorBG"},
+{"id":"redUpBanner", "src":"http://appimg.qq.com/happyfarm/module/ui/main/redUpBannerNew_v_9.swf", "className":"redUpBanner"},
+{"id":"redUpBannerNewVer", "src":"http://appimg.qq.com/happyfarm/module/ui/main/redUpBannerNewVer_v_15.swf", "className":"redUpBanner"},
+{"id":"redup", "src":"http://appimg.qq.com/happyfarm/module/ui/main/RedUp.swf", "className":"Red"},
+{"id":"help", "src":"http://appimg.qq.com/happyfarm/module/help_v_1.swf"},
+{"id":"fresherTask", "src":"http://appimg.qq.com/happyfarm/module/task_v_3.swf", "className":"taskAwokeButton"},
+{"id":"98088", "src":"http://appimg.qq.com/happyfarm/module/ui/farm/diy/98088.jpg"},
+{"id":"98088b", "src":"http://appimg.qq.com/happyfarm/module/ui/farm/diy/98088b.jpg"},
+{"id":"guide", "src":"http://appimg.qq.com/happyfarm/guide_v_3.swf"}
+]}
+        ]]>
+</secondList>
+
+    
+    <!-- 素材列表-->
+    <assets>
+        
+    </assets>
+    
+    
+ <!-- 农场黄钻礼包 -->
+    <yellowGifts type="json">
+        <![CDATA[
+         {"yellowGifts": 
+            [{"asset_id": "", "desc": "年费黄钻礼包", "id": 0, "item": [{"eAppid": 353, "eName": "飞速化肥x1", "eNum": 1, "eParam": 7, "eType": 3}, {"eAppid": 353, "eName": "普通狗粮x1", "eNum": 1, "eParam": 9001, "eType": 4}]}, {"asset_id": "", "desc": "黄钻lv1礼包", "id": 1, "item": [{"eAppid": 353, "eName": "普通化肥x2", "eNum": 2, "eParam": 1, "eType": 3}, {"eAppid": 353, "eName": "普通鱼食x2", "eNum": 2, "eParam": 1, "eType": 24}]}, {"asset_id": "", "desc": "黄钻LV2礼包", "id": 2, "item": [{"eAppid": 353, "eName": "高速化肥x2", "eNum": 2, "eParam": 2, "eType": 3}, {"eAppid": 353, "eName": "普通鱼食x3", "eNum": 3, "eParam": 1, "eType": 24}]}, {"asset_id": "", "desc": "黄钻LV3礼包", "id": 3, "item": [{"eAppid": 353, "eName": "高速化肥x2", "eNum": 2, "eParam": 2, "eType": 3}, {"eAppid": 353, "eName": "高级鱼食x2", "eNum": 2, "eParam": 2, "eType": 24}]}, {"asset_id": "", "desc": "黄钻LV4礼包", "id": 4, "item": [{"eAppid": 353, "eName": "极速化肥x2", "eNum": 2, "eParam": 3, "eType": 3}, {"eAppid": 353, "eName": "高速化肥x2", "eNum": 2, "eParam": 2, "eType": 3}, {"eAppid": 353, "eName": "高级鱼食x3", "eNum": 3, "eParam": 2, "eType": 24}]}, {"asset_id": "", "desc": "黄钻LV5礼包", "id": 5, "item": [{"eAppid": 353, "eName": "飞速化肥x2", "eNum": 2, "eParam": 7, "eType": 3}, {"eAppid": 353, "eName": "高速化肥x2", "eNum": 2, "eParam": 2, "eType": 3}, {"eAppid": 353, "eName": "高级鱼食x2", "eNum": 2, "eParam": 2, "eType": 24}, {"eAppid": 353, "eName": "普通鱼食x2", "eNum": 2, "eParam": 1, "eType": 24}]}, {"asset_id": "", "desc": "黄钻LV6礼包", "id": 6, "item": [{"eAppid": 353, "eName": "飞速化肥x2", "eNum": 2, "eParam": 7, "eType": 3}, {"eAppid": 353, "eName": "极速化肥x2", "eNum": 2, "eParam": 3, "eType": 3}, {"eAppid": 353, "eName": "高级鱼食x3", "eNum": 3, "eParam": 2, "eType": 24}, {"eAppid": 353, "eName": "普通鱼食x3", "eNum": 3, "eParam": 1, "eType": 24}]}, {"asset_id": "", "desc": "黄钻LV7礼包", "id": 7, "item": [{"eAppid": 353, "eName": "飞速化肥x3", "eNum": 3, "eParam": 7, "eType": 3}, {"eAppid": 353, "eName": "极速化肥x3", "eNum": 3, "eParam": 3, "eType": 3}, {"eAppid": 353, "eName": "普通鱼食x3", "eNum": 3, "eParam": 1, "eType": 24}, {"eAppid": 353, "eName": "高级鱼食x3", "eNum": 3, "eParam": 2, "eType": 24}]}, {"asset_id": "", "desc": "黄钻LV8礼包", "id": 8, "item": [{"eAppid": 353, "eName": "飞速化肥x4", "eNum": 4, "eParam": 7, "eType": 3}, {"eAppid": 353, "eName": "极速化肥x4", "eNum": 4, "eParam": 3, "eType": 3}, {"eAppid": 353, "eName": "高级鱼食x3", "eNum": 3, "eParam": 2, "eType": 24}, {"eAppid": 353, "eName": "超级鱼食x3", "eNum": 3, "eParam": 3, "eType": 24}]}]
+         }
+        ]]>
+    </yellowGifts>
+
+    <!-- 农场牌子 -->
+    <boards type="json">
+        <![CDATA[
+        {"boards": [
+            
+        ]}
+        ]]>
+    </boards>
+
+    <!-- 农场作物 -->
+    <crops type="json">
+        <![CDATA[
+        {"crops": [
+            
+        ]}
+        ]]>
+    </crops>
+
+    <!-- 农场背景装饰 -->
+    <item_info type="json">
+        <![CDATA[
+        {"item_info": [
+            
+        ]}
+        ]]>
+    </item_info>
+    
+   
+
+    <redBlackEventCollect>
+        <collect value="131" name="美味水果" money="30"/>
+    </redBlackEventCollect>
+    <!--为了让这个XML变化-->
+     <change>"1"</change>
+</data>
